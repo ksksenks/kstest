@@ -1,1 +1,152 @@
-/* new project */
+.header{
+ background-image: url("Files/Rectangle\ 11-2.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.header-menu{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-evenly;
+ padding-top:20px;
+}
+
+.main-banner__head{
+ font-family: 'Saol Display';
+ font-style: normal;
+ font-weight: 300;
+ font-size: 64px;
+ line-height: 100%;
+ text-align: center;
+ color: white;
+}
+
+.main-banner__text{
+ color: white;
+ margin: 20px;  
+ font-family: 'Untitled Sans';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 15px;
+ line-height: 21px;
+text-align: center;
+}
+
+.main-banner__btns{
+ display: flex;
+ justify-content: space-around;
+ padding-bottom: 30px;
+}
+
+.main-banner__btn—blue{
+ background: #B5D8D6;
+ margin: 40px;
+ border-radius: 50%;
+ min-width: 110px;
+ min-height: 110px;
+ font-family: 'Untitled Sans';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 10px;
+ line-height: 130%;
+}
+
+.main-banner__btn—orange{
+ background: #F0BB82;
+ border-radius: 50%;
+ min-width: 150px;
+ min-height: 150px;
+ font-family: 'Untitled Sans';   
+}
+
+.offers{
+ background: linear-gradient(0deg, #3E4C3D, #3E4C3D), #37473A;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+}
+
+.offers-header-1{
+ font-family: 'Saol Display';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 45px;
+ line-height: 100%;
+ color: #EBEBEB;
+ margin-top: 40px;
+ margin-left: 10px;
+}
+
+.offers-header-2{
+ font-family: 'Saol Display';
+ font-style: italic;
+ font-weight: 300;
+ font-size: 60px;
+ line-height: 100%;
+ color: #A6857E;
+ margin-left: 60px;
+}
+
+.offers-text{
+ font-family: 'Untitled Sans';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 19px;
+ line-height: 140%;
+ color: #EBEBEB;
+ margin: 10px;
+}
+
+.line{
+ width: 340px;
+ height: 0.5px;
+ left: 25px;
+ background: #EBEBEB;
+ opacity: 0.1;
+ margin-top: 10px;
+}
+
+.tile_2--image{
+ position: relative;   
+ width: 420px;
+ height: 420px;
+ left: 30px;
+}
+
+.offers__section{
+ font-family: 'Untitled Sans';
+ font-style: normal;
+ color: #FFFFFF;
+ list-style-type:none;
+ padding: 10px;
+ max-width: 400px;
+}
+
+.offers-icon{
+display: flex;
+Font-family: 'Untitled Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 140%;
+}
+
+.offers-bulletpoint{
+margin-top: 15px;
+margin-right: 15px;
+font-weight: bold;
+}
+
+.offers__img-square{
+position: relative;   
+width: 365px;
+height: 360px;
+right: 30px;   
+}
+
+.main-banner__btn—white{
+    max-width: 40px;
+    max-height: 40px;
+    margin: 50px;
+}
